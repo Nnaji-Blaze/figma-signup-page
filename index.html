@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up | Individuals</title>
+  </head>
+  <body>
+      <div class="top-bar">
+        <p>9:41</p>
+        <div class="ios-status-bar"></div>
+      </div>
+    <div class="container">
+      <div class="left flex-item">
+        <div class="logo-container"></div>
+        <span class="visually-hidden">Logo</span>
+        <!-- <img src="/media/Logo.svg" alt="logo" /> -->
+        <h1>For Individuals</h1>
+        <p id="web">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p id="mobile">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
+      <div class="right flex-item">
+        <form action="post" class="form">
+          <div class="grid">
+            <label for="fname" class="fname">First Name</label>
+            <label for="lname" class="lname">Last Name</label>
+            <input type="text" name="fname" id="fname" />
+            <input type="text" name="lname" id="lname" />
+            <label for="gender" class="gender">Gender</label>
+            <label for="dob" class="dob">Date of Birth</label>
+            <select name="gender" id="gender" class="gender-select">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="none">Decline to say</option>
+            </select>
+            <!-- <div class="selectbox">
+              <select name="gender" id="gender" class="gender-select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Decline to say</option>
+              </select>
+            </div> -->
+            <input type="date" name="dob" id="dob"/>
+            <label for="weight" id="weight-tag">Weight (KG)</label>
+            <label for="height" class="height">Height (CM)</label>
+            <input
+              type="text"
+              name="weight"
+              id="weight"
+              placeholder="Enter Weight"
+            />
+            <input
+              type="text"
+              name="height"
+              id="height"
+              placeholder="Enter Height Here"
+            />
+            <label for="activityLevel" id="level">Activity Level</label>
+          </div>
+          <div class="selectbox level">
+            <select name="activityLevel" id="activityLevel">
+              <option value="20%">20%</option>
+              <option value="40%">40%</option>
+              <option value="60%">60%</option>
+              <option value="80%">80%</option>
+              <option value="100%">100%</option>
+            </select>
+            <label for="password" class="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="formfooter">
+            <input type="submit" value="Register" id="button" />
+            <p id="form-footer-terms">
+              By clicking Register, you agree to our
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Terms of Use</a
+              >
+              and our
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Privacy Policy</a
+              >
+            </p>
+          </div>
+        </form>
+        <div>
+          <p id="mobile-footer-terms">
+            By clicking Register, you agree to our
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Terms of Use</a
+            >
+            and our
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              >Privacy Policy</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
